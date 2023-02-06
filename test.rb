@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative 'task3'
+require_relative 'run'
 class TestTask3 < Test::Unit::TestCase
 
     def test_make_hash_object
