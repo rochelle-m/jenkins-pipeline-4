@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat "javac DuplicateCharacters"
+                bat "java DuplicateCharacters"
             }
         }
     }
