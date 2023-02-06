@@ -4,14 +4,14 @@ pipeline {
     }
 
     stages {
-        stage('Build') {
+        stage('Compile') {
             steps {
-                echo "Build"
+                bat "javac DuplicateCharacters.java"
             }
         }
         stage('Test') {
             steps {
-                echo "Test"
+                bat "javac DuplicateCharacters"
             }
         }
     }
